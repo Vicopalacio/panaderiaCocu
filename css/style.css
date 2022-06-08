@@ -1,0 +1,16 @@
+@media all and (max-width: 767px) {
+  .banner-responsive {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+.img {
+  filter: sepia(50%);
+}
+
+.img:hover {
+  filter: sepia(0%);
+  transition: 700ms;
+}
+
